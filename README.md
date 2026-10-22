@@ -62,4 +62,4 @@ Prueba 2:
 	• nota3: 2.5 (Aceptado)
 • Resultados Esperados:
 	• promedio: \((4.5 + 3.0 + 2.5) / 3 = \mathbf{3.33}\)
-• Estado: Exitoso (
+• Estado: Exitoso 
