@@ -1,14 +1,14 @@
 Algoritmo ValidarRegistro
 	Definir edad Como Entero
-	Definir respuesta Como Caracter
-	Escribir "¿Cuantos años tienes?"
-	leer edad
-	Escribir "¿Acepta terminos y condiciones? (S/N)"
-	leer respuesta
+	Definir respuesta Como Cadena
+	Escribir '¿Cuantos años tienes?'
+	Leer edad
+	Escribir '¿Acepta terminos y condiciones? (S/N)'
+	Leer respuesta
 	respuesta <- Mayusculas(respuesta)
-	si edad >= 14 y respuesta = "S" Entonces
-		Escribir "registro exitoso"
-	sino 
-		Escribir "No puedes registrarte"
+	Si edad>=14 Y respuesta='S' Entonces
+		Escribir 'registro exitoso'
+	SiNo
+		Escribir 'No puedes registrarte'
 	FinSi
 FinAlgoritmo
